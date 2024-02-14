@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #231f20;
+    color: #8E793E;
+
+    background-image: url(./luxury-wedding-geometric-gold-frame-border-png.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top, center;
+  }
+  
+  .section-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  
+  .section-container *{
+    margin: auto;
+  }
+  
+  .section-container > img{
+    width: 40%;
+  }
+  
+  .section-container > h1,
+  .section-container > h2{
+    font-size: 60px;
+  }
+  
+  .contact-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+  
+  .contact-list > li{
+    font-size: 25px;
+    color: #ad974f;
+    padding-bottom: 5%;
+  }
+
+  .contact-list > li >a.link{
+    color: #e2b72b;
+  }
+
+
+/**Additional styles*/
+/**smartphones*/
+
+/*481px — 768px: iPads, Tablets*/
+@media screen and (max-width: 768px) {
+    .section-container > h1,
+    .section-container > h2{
+        font-size: 40px;
+    }
+    .contact-list > li{
+        font-size: 18px;
+      }
+
+    .section-container > img{
+        width: 35%;
+    }
+  }
+
+  /*320px — 480px: Mobile devices*/
+@media screen and (max-width: 480px) {
+
+    .section-container > h1,
+    .section-container > h2{
+        font-size: 20px;
+    }
+
+    .contact-list > li{
+        font-size: 14px;
+    }
+
+    .section-container > img{
+     width: 30%;
+    }
+
+  }
