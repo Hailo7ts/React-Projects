@@ -7,10 +7,10 @@
     margin: 0;
     font-family: Inter, sans-serif;
     height: 100vh;
-    background-color: #231f20;
-    color: #8E793E;
+    background-color: #011B10;
+    color: #B7bf96;
 
-    background-image: url(./luxury-wedding-geometric-gold-frame-border-png.png);
+    background-image: url(../images/luxury-wedding-geometric-gold-frame-border-png.png);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: top, center;
@@ -45,12 +45,12 @@
   
   .contact-list > li{
     font-size: 25px;
-    color: #ad974f;
+    color: #b7bf96;
     padding-bottom: 5%;
   }
 
   .contact-list > li >a.link{
-    color: #e2b72b;
+    color: #e4deae;
   }
 
 
