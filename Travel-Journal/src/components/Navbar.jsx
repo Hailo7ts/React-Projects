@@ -1,7 +1,8 @@
 export default function Navbar(){
     return(
-        <nav className="nav-container">
-            <img src="../img/airbnb 1.png" alt="logo"/>
+        <nav className="navbar">
+            <img src="..\img\earth.jpg" alt="logo"/>
+            <h1>My Travel Journal</h1>
         </nav>
     )
 }

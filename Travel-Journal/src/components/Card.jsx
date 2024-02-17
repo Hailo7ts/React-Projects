@@ -1,14 +1,27 @@
-export default function Card({stats,coverImg,rating,reviewCount,location,
-    title,price,openSpots}){
-    let badgeText
+export default function Card({location, destination, coverImg, date, description}){
+    /*let badgeText
     if(openSpots === 0){
         badgeText = "SOLD OUT"
     }else if(location === "Online"){
         badgeText = "ONLINE"
-    }
+    }*/
 
     return(
-        <div className="card">
+        <section className="card-container">
+            <img className = "coverImg" src={`../img${coverImg}`} alt="destination"/>
+            <div className="card">
+                <img className="location" src="..\public\img\location-svgrepo-com.svg" alt="location" />
+                <span>{location}</span>
+                <a href="#">Visit on Google Maps</a>
+                <h2>{destination}</h2>
+                <span>{date}</span>
+                <p>description</p>
+            </div>
+        </section>
+    )
+}
+
+/*<div className="card">
         {badgeText && <div className="card-badge">{badgeText}</div>}
             <img className="card-image" src={`../img/${coverImg}`} alt="cover-img" />
             <div className="card-stats">
@@ -20,7 +33,4 @@ export default function Card({stats,coverImg,rating,reviewCount,location,
             <h2 className="card-title">{title}</h2>
             <span className="card-price"><span>From {price}</span> / person</span>
 
-        </div>
-        
-    )
-}
+        </div>*/

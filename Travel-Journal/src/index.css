@@ -8,69 +8,49 @@ body {
   font-family: 'Poppins', sans-serif;
 }
   
-.nav-container{
+.navbar{
   height: 70px;
   display: flex;
-  padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  padding: 5px;
+  background-color: salmon;
+  color: white;
 }
 
-.card-container span>span{
-  font-weight: bold;
-}
-
-.grey{
-  color: #918E9B;
-}
-
-.nav-container > img{
-  max-width: 100px;
-}
-
-main{
-  padding: 20px;
-}
-
-.main-container{
-  display: flex;
-  flex-direction: column;
-}
-
-.main-container > img{
-  align-self: center;
-  max-width: 80%;
-}
-
-h2{
-  font-size: 0.75rem;
-  font-weight: normal;
-}
-
-.main-container > h1{
-  margin-bottom: 16px;
-}
-
-.main-container > p{
-  margin-top: 0;
+.location{
+  width: 2%;
 }
  
-.card-list{
+/**.card-list{
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
   padding-left: 30px;
+}*/
+
+
+.card-container{
+  width: 100%;
+}
+
+.coverImg{
+  width: 25%;
+  height: 100%;
 }
 
 .card{
-  width: 175px;
+  /**width: 175px;*/
+  width: 100%;
   font-size: 0.75rem;
-  flex: 0 0 auto;
+  /**flex: 0 0 auto;*/
   display: flex;
   flex-direction: column;
-  position: relative;
+  /*position: relative;*/
+  
+  /*flex-wrap: wrap;*/
 }
-
+/**
 .card-image{
   width: 100%;
   border-radius: 9px;
@@ -92,7 +72,7 @@ h2{
   height: 14px;
 }
 
-/* ADD */
+
 .card--price {
   margin-top: auto;
 }
@@ -114,6 +94,6 @@ h2{
 
   
 
-  
+  */
 
   
