@@ -30,5 +30,21 @@ export default [
         date: "Feb 16, 2022 - Feb 28, 2022",
         coverImg: "/lisbon.jpg",
         description: "lorem ipsum"
+    },
+    {
+        id: 5,
+        location: "Colorado",
+        destination: "Pikes Peak",
+        date: "June 23, 2022 - June 23, 2022",
+        coverImg: "/pikes-peak.jpg",
+        description: "lorem ipsum"
+    },
+    {
+        id: 6,
+        location: "Colorado",
+        destination: "Painted Mines",
+        date: "June 23, 2022 - June 23, 2022",
+        coverImg: "/painted-mines.jpg",
+        description: "lorem ipsum"
     }
 ]
