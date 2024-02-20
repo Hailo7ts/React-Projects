@@ -10,6 +10,8 @@ function App() {
       key = {card.id}
       {...card}//spread
     />})
+    
+    
 
     return (
       <div>

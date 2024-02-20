@@ -9,27 +9,28 @@ body {
 }
   
 .navbar{
-
   height: 70px;
-  padding: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding: 5px;
-  background-color: salmon;
+  background-color: #FF5A5F;
   color: white;
   
+}
+
+.navbar > img{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(1%) 
+  saturate(1132%) hue-rotate(71deg) brightness(125%) contrast(95%);
 }
 
 .location{
   width: 2%;
 }
- 
-
 
 .card-container{
   width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  padding-left: 5%;
   display: flex;
   flex-direction: row;
 }
@@ -52,6 +53,11 @@ body {
   font-weight: bold;
   font-size: 0.65rem;
   padding-bottom: 1%;
+}
+
+.location-name > img{
+  filter: brightness(0) saturate(100%) invert(41%) sepia(54%) 
+  saturate(2787%) hue-rotate(329deg) brightness(117%) contrast(106%);
 }
 
 .google-ref{

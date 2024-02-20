@@ -1,4 +1,4 @@
-export default function Card({location, destination, coverImg, date, description}){
+export default function Card({maps, location, destination, coverImg, date, description}){
    
     return(
         <section className="card-container">
@@ -7,7 +7,7 @@ export default function Card({location, destination, coverImg, date, description
                 <span className="location-name"> <img className="location" 
                 src="..\public\img\location-svgrepo-com.svg" 
                 alt="location" /> {location} 
-                <a className="google-ref" href="#">Visit on Google Maps</a> </span>
+                <a className="google-ref" href={maps}>Visit on Google Maps</a> </span>
                 <h2 className="card-destination">{destination}</h2>
                 <span className="card-date">{date}</span>
                 <p>description</p>
