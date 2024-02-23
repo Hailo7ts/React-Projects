@@ -1,10 +1,15 @@
 import memesData from '../memesData.js'
 
 export default function Meme(){
+    
+    function getImage(){
+        const memesArr = memesData.data.memes //contain meme array
+        const randomNum = Math.floor(Math.random() * memesArr.length) //generate random number based on length of array
+        const url = memesArr[randomNum].url //grab url data from array
+        console.log(url)
+    }
+    
     return(
-
-
-
         <div className="meme-container">
             
             <div className="form">
@@ -20,7 +25,7 @@ export default function Meme(){
                     placeholder="And take my money"
                     className="form-input"/>
                 </div>
-                <button className="form-button">Get a new meme image</button>
+                <button onClick={getImage} className="form-button">Get a new meme image</button>
                 
             </div>
         </div>
