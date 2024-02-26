@@ -3,10 +3,10 @@ import memesData from '../memesData.js'
 export default function Meme(){
     
     function getImage(){
-        const memesArr = memesData.data.memes //contain meme array
-        const randomNum = Math.floor(Math.random() * memesArr.length) //generate random number based on length of array
-        const url = memesArr[randomNum].url //grab url data from array
-        console.log(url)
+        const memeArray = memesData.data.memes //assign array to var
+        const randomNum = Math.floor(Math.random()*memeArray.length)// generate a random num for index
+        const url = memeArray[randomNum].url
+        console.log(url)//return random meme image 
     }
     
     return(
@@ -31,3 +31,4 @@ export default function Meme(){
         </div>
     )
 }
+
