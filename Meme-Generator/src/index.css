@@ -38,7 +38,7 @@ body{
 
 .form{
     display: grid;
-    grid-template: 100% 100% / 1fr 1fr;
+    grid-template: 2.5rem 2.5rem / 1fr 1fr;
     gap: 1.06rem;
 }
 
@@ -63,4 +63,9 @@ body{
     border-radius: 0.31rem;
     border: none;
     cursor: pointer;
+}
+
+.form-image{
+    max-width: 100%;
+    margin-top: 2rem;
 }
